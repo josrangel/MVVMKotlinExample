@@ -7,6 +7,11 @@ import androidx.lifecycle.Observer
 import com.josrangel.mvvmkotlinexample.databinding.ActivityMainBinding
 import com.josrangel.mvvmkotlinexample.viewmodel.QuoteViewModel
 
+/**
+ * Source:
+ * https://cursokotlin.com/mvvm-en-android-con-kotlin-livedata-y-view-binding-android-architecture-components/
+ */
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
